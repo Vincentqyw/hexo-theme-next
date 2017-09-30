@@ -1,4 +1,4 @@
-# NexT
+# NexT ![logo](../../blob/master/source/images/favicon-32x32.png)
 
 NexT is a high quality elegant [Hexo](http://hexo.io) theme. It is crafted from scratch, with love.
 
