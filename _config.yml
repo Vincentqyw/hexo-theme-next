@@ -30,15 +30,28 @@ keywords: "Hexo, NexT"
 # Set rss to specific value if you have burned your feed already.
 rss:
 
-# Specify the date when the site was setup
-#since: 2015
+footer:
+  # Specify the date when the site was setup.
+  # If not defined, current year will be used.
+  #since: 2015
 
-# icon between year and author @Footer
-authoricon: heart
+  # Icon between year and copyright info.
+  icon: user
 
-# Footer `powered-by` and `theme-info` copyright
-copyright: true
+  # If not defined, will be used `author` from Hexo main config.
+  copyright:
+  # -------------------------------------------------------------
+  # Hexo link (Powered by Hexo).
+  powered: true
 
+  theme:
+    # Theme & scheme info link (Theme - NexT.scheme).
+    enable: true
+    # Version info of NexT after scheme info (vX.X.X).
+    version: true
+  # -------------------------------------------------------------
+  # Any custom text can be defined here.
+  #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -416,12 +429,12 @@ duoshuo_info:
   user_id: 0
   #admin_nickname: Author
 
-
-
+# Post widgets & FB/VK comments settings.
+# ---------------------------------------------------------------
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
-  enable: false
+  enable:       false
   app_id:       #<app_id>
   fb_admin:     #<user_id>
   like_button:  #true
@@ -431,15 +444,15 @@ facebook_sdk:
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable: false
-  num_of_posts: 10  # min posts num is 1
-  width: 100%       # default width is 550px
-  scheme: light     # default scheme is light (light or dark)
+  enable:       false
+  num_of_posts: 10    # min posts num is 1
+  width:        100%  # default width is 550px
+  scheme:       light # default scheme is light (light or dark)
 
 # VKontakte API Support.
 # To get your AppID visit https://vk.com/editapp?act=create
 vkontakte_api:
-  enable: false
+  enable:       false
   app_id:       #<app_id>
   like:         true
   comments:     true
@@ -451,7 +464,7 @@ rating:
   enable: false
   id:     #<app_id>
   color:  fc6423
-
+# ---------------------------------------------------------------
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
