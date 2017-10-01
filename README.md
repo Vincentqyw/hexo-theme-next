@@ -1,6 +1,6 @@
 # <div align="center"><img align="top" width="40" height="44" src="../../blob/master/source/images/logo.svg"> e x T</div>
 
-<p align="center">NexT is a high quality elegant <a rel="external" href="http://hexo.io">Hexo</a> theme. It is crafted from scratch, with love.</p>
+<p align="center">NexT is a high quality elegant <a href="http://hexo.io">Hexo</a> theme. It is crafted from scratch, with love.</p>
 
 [![gitter-image]][gitter-url]
 [![mnt-image]][commits-url]
