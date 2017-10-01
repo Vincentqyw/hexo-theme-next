@@ -1,4 +1,4 @@
-<h1 align="center"><img align="top" width="40" height="44" src="../../blob/master/source/images/logo.svg"> e x T</h1>
+<h1 align="center"><a target="_blank" href="https://github.com/iissnan/hexo-theme-next"><img align="top" width="40" height="44" src="../../blob/master/source/images/logo.svg"> e x T</a></h1>
 
 <p align="center">NexT is a high quality elegant <a target="_blank" href="http://hexo.io">Hexo</a> theme. It is crafted from scratch, with love.</p>
 
