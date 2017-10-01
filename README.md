@@ -13,10 +13,10 @@
 
 ## Live Preview
 
-* Muse scheme: [XiaMo](https://notes.wanghao.work) | [OAwan](https://oawan.me) | [Hui Wang](http://hui-wang.info)
-* Mist scheme: [Jeff](https://blog.zzbd.org) | [uchuhimo](http://uchuhimo.me) | [xirong](http://www.ixirong.com)
-* Pisces scheme: [Vi](http://notes.iissnan.com) | [Acris](https://blog.mrx.one) | [Rainy](https://rainylog.com)
-* Gemini scheme: [Ivan.Nginx](https://almostover.ru) | [Alynx](http://sh.alynx.xyz) | [Raincal](https://raincal.top)
+* :heart_decoration: Muse scheme: [XiaMo](https://notes.wanghao.work) | [OAwan](https://oawan.me) | [Hui Wang](http://hui-wang.info)
+* :six_pointed_star: Mist scheme: [Jeff](https://blog.zzbd.org) | [uchuhimo](http://uchuhimo.me) | [xirong](http://www.ixirong.com)
+* :pisces: Pisces scheme: [Vi](http://notes.iissnan.com) | [Acris](https://blog.mrx.one) | [Rainy](https://rainylog.com)
+* :gemini: Gemini scheme: [Ivan.Nginx](https://almostover.ru) | [Alynx](http://sh.alynx.xyz) | [Raincal](https://raincal.top)
 
 More NexT examples [here](https://github.com/iissnan/hexo-theme-next/issues/119).
 
@@ -119,6 +119,12 @@ $ cd themes/next
 $ git pull
 ```
 
+### Bugs
+
+> Commit your changes or stash them before you can merge
+
+You must Commit, Stash or Discard local changes. See [here](https://stackoverflow.com/a/15745424/5861495) how to do it.
+
 ### Theme configurations using Hexo data files ([#328](https://github.com/iissnan/hexo-theme-next/issues/328))
 
 Currently, it is not smooth to update NexT theme from pulling or downloading new releases. It is quite often running into conflict status when updating NexT theme via `git pull`, or need to merge configurations manually when upgrading to new releases.
@@ -145,18 +151,34 @@ With this feature, now you can put all your configurations into one place (`sour
 
 ## Features
 
-### Multiple languages support, including: English / Russian / French / German / Simplified Chinese / Traditional Chinese.
+### Multiple languages support, including:
+:us: English<br>
+:ru: Russian<br>
+:fr: French<br>
+:de: German<br>
+:jp: Japanese<br>
+:indonesia: Indonesian<br>
+:portugal: Portuguese (Brazil)<br>
+:kr: Korean<br>
+:it: Italian<br>
+:cn: Simplified Chinese & Traditional Chinese.
 
 Default language is English.
 
 ```yml
 language: en
 # language: zh-Hans
-# language: fr-FR
 # language: zh-hk
 # language: zh-tw
 # language: ru
+# language: fr-FR
 # language: de
+# language: ja
+# language: id
+# language: pt
+# language: pt-BR
+# language: ko
+# language: it
 ```
 
 Set `language` field as following in site `_config.yml` to change to Chinese.
